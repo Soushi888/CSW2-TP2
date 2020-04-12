@@ -1,0 +1,196 @@
+# Copyright (C) 2020 N41
+# This file is distributed under the same license as the Les éditions N41 plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Les éditions N41 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/n41-editions\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-03-19T20:01:03+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: n41-editions\n"
+
+#. Plugin Name of the plugin
+msgid "Les éditions N41"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://n41.plugins.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Le catalogue des livres des éditions N41."
+msgstr ""
+
+#. Author of the plugin
+msgid "N41"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://n41.com"
+msgstr ""
+
+#: n41-editions.php:29
+#: n41-editions.php:50
+msgid "Books"
+msgstr ""
+
+#: n41-editions.php:30
+msgid "Book"
+msgstr ""
+
+#: n41-editions.php:31
+msgid "Add New"
+msgstr ""
+
+#: n41-editions.php:32
+msgid "Add New Book"
+msgstr ""
+
+#: n41-editions.php:33
+msgid "Edit Book"
+msgstr ""
+
+#: n41-editions.php:34
+msgid "New Book"
+msgstr ""
+
+#: n41-editions.php:35
+msgid "View Book"
+msgstr ""
+
+#: n41-editions.php:36
+msgid "View Books"
+msgstr ""
+
+#: n41-editions.php:37
+msgid "Search Books"
+msgstr ""
+
+#: n41-editions.php:38
+msgid "No books found."
+msgstr ""
+
+#: n41-editions.php:39
+msgid "No books found in Trash."
+msgstr ""
+
+#: n41-editions.php:40
+msgid "Parent Book:"
+msgstr ""
+
+#: n41-editions.php:41
+msgid "All Books"
+msgstr ""
+
+#: n41-editions.php:42
+msgid "Book Archives"
+msgstr ""
+
+#: n41-editions.php:43
+msgid "Book Attributes"
+msgstr ""
+
+#: n41-editions.php:44
+msgid "Insert into book"
+msgstr ""
+
+#: n41-editions.php:45
+msgid "Uploaded to this book"
+msgstr ""
+
+#: n41-editions.php:46
+msgid "Book Cover Image"
+msgstr ""
+
+#: n41-editions.php:47
+msgid "Set cover image"
+msgstr ""
+
+#: n41-editions.php:48
+msgid "Remove cover image"
+msgstr ""
+
+#: n41-editions.php:49
+msgid "Use as cover image"
+msgstr ""
+
+#: n41-editions.php:51
+msgid "Filter books list"
+msgstr ""
+
+#: n41-editions.php:52
+msgid "Books list navigation"
+msgstr ""
+
+#: n41-editions.php:53
+msgid "Books list"
+msgstr ""
+
+#: n41-editions.php:54
+msgid "Book published."
+msgstr ""
+
+#: n41-editions.php:55
+msgid "Book published privately."
+msgstr ""
+
+#: n41-editions.php:56
+msgid "Book reverted to draft."
+msgstr ""
+
+#: n41-editions.php:57
+msgid "Book scheduled."
+msgstr ""
+
+#: n41-editions.php:58
+msgid "Book updated."
+msgstr ""
+
+#: n41-editions.php:63
+msgid "Book catalog"
+msgstr ""
+
+#: n41-editions.php:75
+msgid "books"
+msgstr ""
+
+#: n41-editions.php:86
+msgid "Genres"
+msgstr ""
+
+#: n41-editions.php:87
+msgid "Genre"
+msgstr ""
+
+#: n41-editions.php:91
+msgid "genres"
+msgstr ""
+
+#: n41-editions.php:100
+msgid "Authors"
+msgstr ""
+
+#: n41-editions.php:101
+msgid "Author"
+msgstr ""
+
+#: n41-editions.php:105
+msgid "authors"
+msgstr ""
+
+#: n41-editions.php:114
+msgid "Original languages"
+msgstr ""
+
+#: n41-editions.php:115
+msgid "Original language"
+msgstr ""
+
+#: n41-editions.php:119
+msgid "original-languages"
+msgstr ""
