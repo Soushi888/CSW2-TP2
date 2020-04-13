@@ -35,76 +35,76 @@ msgstr ""
 msgid "https://soushi888.com"
 msgstr ""
 
-#: csw2-exhibitions.php:29 csw2-exhibitions.php:50
-msgid "Paintings"
-msgstr "Toiles"
+#: csw2-exhibitions.php:31 csw2-exhibitions.php:50
+msgid "Exhibitions"
+msgstr "Expositions"
 
 #: csw2-exhibitions.php:30
-msgid "Painting"
-msgstr "Toile"
+msgid "Exhibition"
+msgstr "Exposition"
 
 #: csw2-exhibitions.php:31
 msgid "Add New"
 msgstr "Ajouter"
 
 #: csw2-exhibitions.php:32
-msgid "Add New Painting"
-msgstr "Ajouter un Toile"
+msgid "Add New Exhibition"
+msgstr "Ajouter un Exposition"
 
 #: csw2-exhibitions.php:33
-msgid "Edit Painting"
-msgstr "Editer un Toile"
+msgid "Edit Exhibition"
+msgstr "Editer un Exposition"
 
 #: csw2-exhibitions.php:34
-msgid "New Painting"
-msgstr "Nouveau Toile"
+msgid "New Exhibition"
+msgstr "Nouveau Exposition"
 
 #: csw2-exhibitions.php:35
-msgid "View Painting"
-msgstr "Voir un Toile"
+msgid "View Exhibition"
+msgstr "Voir un Exposition"
 
 #: csw2-exhibitions.php:36
-msgid "View Paintings"
-msgstr "Voir les Toiles"
+msgid "View Exhibitions"
+msgstr "Voir les Expositions"
 
 #: csw2-exhibitions.php:37
-msgid "Search Paintings"
-msgstr "Rechercher des Toiles"
+msgid "Search Exhibitions"
+msgstr "Rechercher des Expositions"
 
 #: csw2-exhibitions.php:38
-msgid "No Paintings found."
-msgstr "Aucune Toile trouvée."
+msgid "No Exhibitions found."
+msgstr "Aucune Exposition trouvée."
 
 #: csw2-exhibitions.php:39
-msgid "No Paintings found in Trash."
-msgstr "Aucune Toile trouvée dans la corbeille."
+msgid "No Exhibitions found in Trash."
+msgstr "Aucune Exposition trouvée dans la corbeille."
 
 #: csw2-exhibitions.php:40
-msgid "Parent Painting:"
-msgstr "Toile parent:"
+msgid "Parent Exhibition:"
+msgstr "Exposition parent:"
 
 #: csw2-exhibitions.php:41
-msgid "All Paintings"
-msgstr "Tous les Toiles"
+msgid "All Exhibitions"
+msgstr "Tous les Expositions"
 
 #: csw2-exhibitions.php:42
-msgid "Painting Archives"
-msgstr "Toiles archivés"
+msgid "Exhibition Archives"
+msgstr "Expositions archivés"
 
 #: csw2-exhibitions.php:43
-msgid "Painting Attributes"
-msgstr "Attributs du Toile"
+msgid "Exhibition Attributes"
+msgstr "Attributs du Exposition"
 
 #: csw2-exhibitions.php:44
-msgid "Insert into Painting"
-msgstr "Insérer dans le Toile"
+msgid "Insert into Exhibition"
+msgstr "Insérer dans le Exposition"
 
 #: csw2-exhibitions.php:45
-msgid "Uploaded to this Painting"
-msgstr "Téléversé dans ce Toile"
+msgid "Uploaded to this Exhibition"
+msgstr "Téléversé dans ce Exposition"
 
 #: csw2-exhibitions.php:46
-msgid "Painting Cover Image"
+msgid "Exhibition Cover Image"
 msgstr "Image de couverture"
 
 #: csw2-exhibitions.php:47
@@ -120,44 +120,44 @@ msgid "Use as cover image"
 msgstr "Utiliser comme image de couverture"
 
 #: csw2-exhibitions.php:51
-msgid "Filter Paintings list"
-msgstr "Filtrer la liste des Toiles"
+msgid "Filter Exhibitions list"
+msgstr "Filtrer la liste des Expositions"
 
 #: csw2-exhibitions.php:52
-msgid "Paintings list navigation"
-msgstr "Navigation dans la liste des Toiles"
+msgid "Exhibitions list navigation"
+msgstr "Navigation dans la liste des Expositions"
 
 #: csw2-exhibitions.php:53
-msgid "Paintings list"
-msgstr "Liste des Toiles"
+msgid "Exhibitions list"
+msgstr "Liste des Expositions"
 
 #: csw2-exhibitions.php:54
-msgid "Painting published."
-msgstr "Toile publiée."
+msgid "Exhibition published."
+msgstr "Exposition publiée."
 
 #: csw2-exhibitions.php:55
-msgid "Painting published privately."
-msgstr "Toile publiée à titre privé."
+msgid "Exhibition published privately."
+msgstr "Exposition publiée à titre privé."
 
 #: csw2-exhibitions.php:56
-msgid "Painting reverted to draft."
-msgstr "Toile retournée à l'état de brouillon."
+msgid "Exhibition reverted to draft."
+msgstr "Exposition retournée à l'état de brouillon."
 
 #: csw2-exhibitions.php:57
-msgid "Painting scheduled."
-msgstr "Publication du Toile planifiée."
+msgid "Exhibition scheduled."
+msgstr "Publication du Exposition planifiée."
 
 #: csw2-exhibitions.php:58
-msgid "Painting updated."
-msgstr "Toile modifiée."
+msgid "Exhibition updated."
+msgstr "Exposition modifiée."
 
 #: csw2-exhibitions.php:63
-msgid "Painting catalog"
-msgstr "Catalogue des Toiles"
+msgid "Exhibition catalog"
+msgstr "Catalogue des Expositions"
 
 #: csw2-exhibitions.php:75
-msgid "Paintings"
-msgstr "Toiles"
+msgid "Exhibitions"
+msgstr "Expositions"
 
 #: csw2-exhibitions.php:86
 msgid "Themes"
