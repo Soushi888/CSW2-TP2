@@ -1,0 +1,225 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: csw2_exhibitions-fr_CA\n"
+"POT-Creation-Date: 2020-04-12 23:28-0400\n"
+"PO-Revision-Date: 2020-04-12 23:29-0400\n"
+"Last-Translator: \n"
+"Language-Team: Soushi888\n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: csw2_exhibitions.php:31 csw2_exhibitions.php:32 csw2_exhibitions.php:52
+msgid "Exhibition"
+msgstr "Exposition"
+
+#: csw2_exhibitions.php:33
+msgid "Add New"
+msgstr "Ajouter"
+
+#: csw2_exhibitions.php:34
+msgid "Add New Exhibition"
+msgstr "Ajouter une Exposition"
+
+#: csw2_exhibitions.php:35
+msgid "Edit Exhibition"
+msgstr "Modifier une Exposition"
+
+#: csw2_exhibitions.php:36
+msgid "New Exhibition"
+msgstr "Ajouter une Exposition"
+
+#: csw2_exhibitions.php:37 csw2_exhibitions.php:38
+msgid "View Exhibition"
+msgstr "Voir Exposition"
+
+#: csw2_exhibitions.php:39
+msgid "Search Exhibition"
+msgstr "Chercher une Exposition"
+
+#: csw2_exhibitions.php:40
+msgid "No exhibition found."
+msgstr "Aucune exposition trouvée."
+
+#: csw2_exhibitions.php:41
+msgid "No exhibition found in Trash."
+msgstr "Aucune exposition trouvée dans la corbeille."
+
+#: csw2_exhibitions.php:42
+msgid "Parent exhibition:"
+msgstr "Exposition parente :"
+
+#: csw2_exhibitions.php:43
+msgid "All Exhibition"
+msgstr "Toutes les Expositions"
+
+#: csw2_exhibitions.php:44
+msgid "Exhibition Archives"
+msgstr "Archives de l'Exposition"
+
+#: csw2_exhibitions.php:45
+msgid "Exhibition Attributes"
+msgstr "Attribut de l'Expositions"
+
+#: csw2_exhibitions.php:46
+msgid "Insert into Exhibition"
+msgstr "Insérer dans l'Exposition"
+
+#: csw2_exhibitions.php:47
+msgid "Uploaded to this Exhibition"
+msgstr "Téléverser dans cette Exposition"
+
+#: csw2_exhibitions.php:48
+msgid "Exhibition Cover Image"
+msgstr "Image de couverture de l'Exposition"
+
+#: csw2_exhibitions.php:49
+msgid "Set cover image"
+msgstr "Définir  l'image de couverture"
+
+#: csw2_exhibitions.php:50
+msgid "Remove cover image"
+msgstr "Supprimer l'image de couverture"
+
+#: csw2_exhibitions.php:51
+msgid "Use as cover image"
+msgstr "Utiliser l'image de couverture"
+
+#: csw2_exhibitions.php:53
+msgid "Filter exhibition list"
+msgstr "Filtrer la liste des Expositions"
+
+#: csw2_exhibitions.php:54
+msgid "Exhibition list navigation"
+msgstr "Navigation dans la liste des Expositions"
+
+#: csw2_exhibitions.php:55
+msgid "Exhibition list"
+msgstr "Liste des Expositions"
+
+#: csw2_exhibitions.php:56
+msgid "Exhibition published."
+msgstr "Exposition publiée."
+
+#: csw2_exhibitions.php:57
+msgid "Exhibition published privately."
+msgstr "Exposition publiée à titre privé."
+
+#: csw2_exhibitions.php:58
+msgid "Exhibition reverted to draft."
+msgstr "Exposition retournée à l'état de brouillon."
+
+#: csw2_exhibitions.php:59
+msgid "Exhibition scheduled."
+msgstr "Exposition planifiée."
+
+#: csw2_exhibitions.php:60
+msgid "Exhibition updated."
+msgstr "Exposition mise-à-jour."
+
+#: csw2_exhibitions.php:65
+msgid "Exhibition catalog"
+msgstr "Catalogue des Expositions"
+
+#: csw2_exhibitions.php:77
+msgid "exhibitions"
+msgstr "expositions"
+
+#: csw2_exhibitions.php:88
+msgid "Themes"
+msgstr "Thèmes"
+
+#: csw2_exhibitions.php:89
+msgid "Theme"
+msgstr "Thème"
+
+#: csw2_exhibitions.php:90
+msgid "Search a Theme"
+msgstr "Rechercher un Thème"
+
+#: csw2_exhibitions.php:91
+msgid "Add Theme"
+msgstr "Ajouter un Thème"
+
+#: csw2_exhibitions.php:92
+msgid "Parent Theme"
+msgstr "Thème parent"
+
+#: csw2_exhibitions.php:93
+msgid "No Theme found."
+msgstr "Aucun Thème trouvé."
+
+#: csw2_exhibitions.php:97
+msgid "themes"
+msgstr "thème"
+
+#: csw2_exhibitions.php:106
+msgid "Artists"
+msgstr "Artistes"
+
+#: csw2_exhibitions.php:107
+msgid "Artist"
+msgstr "Artiste"
+
+#: csw2_exhibitions.php:108
+msgid "Search a Artist"
+msgstr "Rechercher un Artiste"
+
+#: csw2_exhibitions.php:109
+msgid "Add Artist"
+msgstr "Ajouter un Artiste"
+
+#: csw2_exhibitions.php:110
+msgid "No Artist found."
+msgstr "Aucun Artiste trouvé."
+
+#: csw2_exhibitions.php:114
+msgid "artists"
+msgstr "artistes"
+
+#: csw2_exhibitions.php:123
+msgid "Places"
+msgstr "Lieux"
+
+#: csw2_exhibitions.php:124
+msgid "Place"
+msgstr "Lieu"
+
+#: csw2_exhibitions.php:125
+msgid "Search a Place"
+msgstr "Rechercher un Lieu"
+
+#: csw2_exhibitions.php:126
+msgid "Add Place"
+msgstr "Ajouter un Lieu"
+
+#: csw2_exhibitions.php:127
+msgid "No Place found."
+msgstr "Aucun Lieu  trouvé."
+
+#: csw2_exhibitions.php:131
+msgid "place"
+msgstr "lieu"
+
+#, fuzzy
+#~| msgid "Parent theme"
+#~ msgid "Parent Artist"
+#~ msgstr "Thème parent"
+
+#~ msgid "Search a theme"
+#~ msgstr "Rechercher un thème"
+
+#~ msgid "Add theme"
+#~ msgstr "Ajouter un thème"
+
+#~ msgid "Parent theme"
+#~ msgstr "Thème parent"
+
+#~ msgid "No theme found."
+#~ msgstr "Aucun thème trouvé."

@@ -1,0 +1,169 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: csw2_exhibitions-fr_CA\n"
+"POT-Creation-Date: 2020-04-12 21:48-0400\n"
+"PO-Revision-Date: 2020-04-12 21:05-0400\n"
+"Last-Translator: \n"
+"Language-Team: Soushi888\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr_CA\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: csw2_exhibitions.php:31 csw2_exhibitions.php:32 csw2_exhibitions.php:52
+msgid "Exhibition"
+msgstr ""
+
+#: csw2_exhibitions.php:33
+msgid "Add New"
+msgstr ""
+
+#: csw2_exhibitions.php:34
+msgid "Add New Exhibition"
+msgstr ""
+
+#: csw2_exhibitions.php:35
+msgid "Edit Exhibition"
+msgstr ""
+
+#: csw2_exhibitions.php:36
+msgid "New Exhibition"
+msgstr ""
+
+#: csw2_exhibitions.php:37 csw2_exhibitions.php:38
+msgid "View Exhibition"
+msgstr ""
+
+#: csw2_exhibitions.php:39
+msgid "Search Exhibition"
+msgstr ""
+
+#: csw2_exhibitions.php:40
+msgid "No exhibition found."
+msgstr ""
+
+#: csw2_exhibitions.php:41
+msgid "No exhibition found in Trash."
+msgstr ""
+
+#: csw2_exhibitions.php:42
+msgid "Parent exhibition:"
+msgstr ""
+
+#: csw2_exhibitions.php:43
+msgid "All Exhibition"
+msgstr ""
+
+#: csw2_exhibitions.php:44
+msgid "Exhibition Archives"
+msgstr ""
+
+#: csw2_exhibitions.php:45
+msgid "Exhibition Attributes"
+msgstr ""
+
+#: csw2_exhibitions.php:46
+msgid "Insert into Exhibition"
+msgstr ""
+
+#: csw2_exhibitions.php:47
+msgid "Uploaded to this Exhibition"
+msgstr ""
+
+#: csw2_exhibitions.php:48
+msgid "Exhibition Cover Image"
+msgstr ""
+
+#: csw2_exhibitions.php:49
+msgid "Set cover image"
+msgstr ""
+
+#: csw2_exhibitions.php:50
+msgid "Remove cover image"
+msgstr ""
+
+#: csw2_exhibitions.php:51
+msgid "Use as cover image"
+msgstr ""
+
+#: csw2_exhibitions.php:53
+msgid "Filter exhibition list"
+msgstr ""
+
+#: csw2_exhibitions.php:54
+msgid "Exhibition list navigation"
+msgstr ""
+
+#: csw2_exhibitions.php:55
+msgid "Exhibition list"
+msgstr ""
+
+#: csw2_exhibitions.php:56
+msgid "Exhibition published."
+msgstr ""
+
+#: csw2_exhibitions.php:57
+msgid "Exhibition published privately."
+msgstr ""
+
+#: csw2_exhibitions.php:58
+msgid "Exhibition reverted to draft."
+msgstr ""
+
+#: csw2_exhibitions.php:59
+msgid "Exhibition scheduled."
+msgstr ""
+
+#: csw2_exhibitions.php:60
+msgid "Exhibition updated."
+msgstr ""
+
+#: csw2_exhibitions.php:65
+msgid "Exhibition catalog"
+msgstr ""
+
+#: csw2_exhibitions.php:77
+msgid "Exhibitions"
+msgstr ""
+
+#: csw2_exhibitions.php:88
+msgid "Themes"
+msgstr ""
+
+#: csw2_exhibitions.php:89
+msgid "Theme"
+msgstr ""
+
+#: csw2_exhibitions.php:93
+msgid "themes"
+msgstr ""
+
+#: csw2_exhibitions.php:102
+msgid "Artists"
+msgstr ""
+
+#: csw2_exhibitions.php:103
+msgid "Artist"
+msgstr ""
+
+#: csw2_exhibitions.php:107
+msgid "artists"
+msgstr ""
+
+#: csw2_exhibitions.php:116
+msgid "Places"
+msgstr ""
+
+#: csw2_exhibitions.php:117
+msgid "Place"
+msgstr ""
+
+#: csw2_exhibitions.php:121
+msgid "place"
+msgstr ""
