@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: csw2_exhibitions-fr_CA\n"
-"POT-Creation-Date: 2020-04-12 23:28-0400\n"
-"PO-Revision-Date: 2020-04-12 23:29-0400\n"
+"POT-Creation-Date: 2020-04-14 17:11-0400\n"
+"PO-Revision-Date: 2020-04-14 17:11-0400\n"
 "Last-Translator: \n"
 "Language-Team: Soushi888\n"
 "Language: fr_CA\n"
@@ -155,55 +155,67 @@ msgstr "Thème parent"
 msgid "No Theme found."
 msgstr "Aucun Thème trouvé."
 
-#: csw2_exhibitions.php:97
+#: csw2_exhibitions.php:94
+msgid "Theme added."
+msgstr "Thème ajouté."
+
+#: csw2_exhibitions.php:98
 msgid "themes"
 msgstr "thème"
 
-#: csw2_exhibitions.php:106
+#: csw2_exhibitions.php:107
 msgid "Artists"
 msgstr "Artistes"
 
-#: csw2_exhibitions.php:107
+#: csw2_exhibitions.php:108
 msgid "Artist"
 msgstr "Artiste"
 
-#: csw2_exhibitions.php:108
+#: csw2_exhibitions.php:109
 msgid "Search a Artist"
 msgstr "Rechercher un Artiste"
 
-#: csw2_exhibitions.php:109
+#: csw2_exhibitions.php:110
 msgid "Add Artist"
 msgstr "Ajouter un Artiste"
 
-#: csw2_exhibitions.php:110
+#: csw2_exhibitions.php:111
 msgid "No Artist found."
 msgstr "Aucun Artiste trouvé."
 
-#: csw2_exhibitions.php:114
+#: csw2_exhibitions.php:112
+msgid "Artist added."
+msgstr "Artiste ajouté."
+
+#: csw2_exhibitions.php:116
 msgid "artists"
 msgstr "artistes"
 
-#: csw2_exhibitions.php:123
+#: csw2_exhibitions.php:125
 msgid "Places"
 msgstr "Lieux"
 
-#: csw2_exhibitions.php:124
+#: csw2_exhibitions.php:126
 msgid "Place"
 msgstr "Lieu"
 
-#: csw2_exhibitions.php:125
+#: csw2_exhibitions.php:127
 msgid "Search a Place"
 msgstr "Rechercher un Lieu"
 
-#: csw2_exhibitions.php:126
+#: csw2_exhibitions.php:128
 msgid "Add Place"
 msgstr "Ajouter un Lieu"
 
-#: csw2_exhibitions.php:127
+#: csw2_exhibitions.php:129
 msgid "No Place found."
 msgstr "Aucun Lieu  trouvé."
 
-#: csw2_exhibitions.php:131
+#: csw2_exhibitions.php:130
+msgid "Place added."
+msgstr "Lieu ajouté."
+
+#: csw2_exhibitions.php:134
 msgid "place"
 msgstr "lieu"
 

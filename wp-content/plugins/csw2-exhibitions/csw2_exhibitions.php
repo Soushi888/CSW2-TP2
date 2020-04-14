@@ -90,7 +90,8 @@ function csw2_exhibitions_register_exhibition_post_type_and_taxonomies()
 				'search_items' => __('Search a Theme', 'csw2_exhibitions'),
 				'add_new_item' => __('Add Theme', 'csw2_exhibitions'),
 				'parent_item' => __('Parent Theme', 'csw2_exhibitions'),
-				'not_found' => __('No Theme found.', 'csw2_exhibitions')
+				'not_found' => __('No Theme found.', 'csw2_exhibitions'),
+				'item_published' => __('Theme added.', 'csw2_exhibitions')
 			),
 			'public'       => true,
 			'hierarchical' => true,
@@ -107,7 +108,8 @@ function csw2_exhibitions_register_exhibition_post_type_and_taxonomies()
 				'singular_name'	=> __('Artist', 'csw2_exhibitions'),
 				'search_items' => __('Search a Artist', 'csw2_exhibitions'),
 				'add_new_item' => __('Add Artist', 'csw2_exhibitions'),
-				'not_found' => __('No Artist found.', 'csw2_exhibitions')
+				'not_found' => __('No Artist found.', 'csw2_exhibitions'),
+				'item_published' => __('Artist added.', 'csw2_exhibitions')
 			),
 			'public'       => true,
 			'hierarchical' => false,
@@ -124,7 +126,8 @@ function csw2_exhibitions_register_exhibition_post_type_and_taxonomies()
 				'singular_name'	=> __('Place', 'csw2_exhibitions'),
 				'search_items' => __('Search a Place', 'csw2_exhibitions'),
 				'add_new_item' => __('Add Place', 'csw2_exhibitions'),
-				'not_found' => __('No Place found.', 'csw2_exhibitions')
+				'not_found' => __('No Place found.', 'csw2_exhibitions'),
+				'item_published' => __('Place added.', 'csw2_exhibitions')
 			),
 			'public'       => true,
 			'hierarchical' => false,
