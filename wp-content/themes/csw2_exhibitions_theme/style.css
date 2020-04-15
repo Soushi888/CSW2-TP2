@@ -1,19 +1,19 @@
 /*!
-Theme Name: csw2 Editions
+Theme Name: csw2_exhibitions_theme
 Theme URI: http://underscores.me/
-Author: csw2
+Author: soushi888
 Author URI: http://underscores.me/
 Description: Description
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
-Text Domain: csw2-editions
+Text Domain: csw2-exhibitions
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
-csw2 Editions is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+csw2 exhibitions is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
@@ -54,7 +54,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- html {
+html {
 	line-height: 1.15; /* 1 */
 	-webkit-text-size-adjust: 100%; /* 2 */
 }

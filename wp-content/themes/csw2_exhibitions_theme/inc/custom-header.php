@@ -4,43 +4,43 @@
  *
  * You can add an optional custom header image to header.php like so ...
  *
-	<?php the_header_image_tag(); ?>
+ *	<?php the_header_image_tag(); ?>
  *
  * @link https://developer.wordpress.org/themes/functionality/custom-headers/
  *
- * @package csw2_exhibitions_theme
+ * @package csw2_exhibitions
  */
 
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses csw2_exhibitions_theme_header_style()
+ * @uses csw2_exhibitions_header_style()
  */
-function csw2_exhibitions_theme_custom_header_setup() {
+function csw2_exhibitions_custom_header_setup() {
 	add_theme_support(
 		'custom-header',
 		apply_filters(
-			'csw2_exhibitions_theme_custom_header_args',
+			'csw2_exhibitions_custom_header_args',
 			array(
 				'default-image'      => '',
 				'default-text-color' => '000000',
 				'width'              => 1000,
 				'height'             => 250,
 				'flex-height'        => true,
-				'wp-head-callback'   => 'csw2_exhibitions_theme_header_style',
+				'wp-head-callback'   => 'csw2_exhibitions_header_style',
 			)
 		)
 	);
 }
-add_action( 'after_setup_theme', 'csw2_exhibitions_theme_custom_header_setup' );
+add_action( 'after_setup_theme', 'csw2_exhibitions_custom_header_setup' );
 
-if ( ! function_exists( 'csw2_exhibitions_theme_header_style' ) ) :
+if ( ! function_exists( 'csw2_exhibitions_header_style' ) ) :
 	/**
 	 * Styles the header image and text displayed on the blog.
 	 *
-	 * @see csw2_exhibitions_theme_custom_header_setup().
+	 * @see csw2_exhibitions_custom_header_setup().
 	 */
-	function csw2_exhibitions_theme_header_style() {
+	function csw2_exhibitions_header_style() {
 		$header_text_color = get_header_textcolor();
 
 		/*
@@ -69,7 +69,7 @@ if ( ! function_exists( 'csw2_exhibitions_theme_header_style' ) ) :
 			?>
 			.site-title a,
 			.site-description {
-				color: #<?php echo esc_attr( $header_text_color ); ?>;
+				color: <?php echo esc_attr( $header_text_color ); ?>;
 			}
 		<?php endif; ?>
 		</style>

@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package csw2_exhibitions_theme
+ * @package csw2_exhibitions
  */
 
 get_header();

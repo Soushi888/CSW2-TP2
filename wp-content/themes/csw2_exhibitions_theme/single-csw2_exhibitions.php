@@ -1,10 +1,10 @@
 <?php
 /**
- * The template for displaying all single posts n41_book
+ * The template for displaying all single posts csw2_exhibition
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
- * @package N41_Editions
+ * @package csw2_exhibitions
  */
 
 get_header();

@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package csw2_exhibitions_theme
+ * @package csw2_exhibitions
  */
 
 ?>
@@ -15,7 +15,7 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			<p>&copy; 2020 <?= get_bloginfo('name', 'csw2_exhibitions_theme') ?> &mdash; Tout droits réservés.</p>
+			<p>&copy; <?php _e(get_bloginfo('name'), 'csw2-exhibitions' ); ?> - 2018</p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

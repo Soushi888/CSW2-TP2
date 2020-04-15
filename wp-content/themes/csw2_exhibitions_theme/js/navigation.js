@@ -25,6 +25,7 @@
 		return;
 	}
 
+	menu.setAttribute( 'aria-expanded', 'false' );
 	if ( -1 === menu.className.indexOf( 'nav-menu' ) ) {
 		menu.className += ' nav-menu';
 	}
@@ -33,21 +34,13 @@
 		if ( -1 !== container.className.indexOf( 'toggled' ) ) {
 			container.className = container.className.replace( ' toggled', '' );
 			button.setAttribute( 'aria-expanded', 'false' );
+			menu.setAttribute( 'aria-expanded', 'false' );
 		} else {
 			container.className += ' toggled';
 			button.setAttribute( 'aria-expanded', 'true' );
+			menu.setAttribute( 'aria-expanded', 'true' );
 		}
 	};
-
-	// Close small menu when user clicks outside
-	document.addEventListener( 'click', function( event ) {
-		var isClickInside = container.contains( event.target );
-
-		if ( ! isClickInside ) {
-			container.className = container.className.replace( ' toggled', '' );
-			button.setAttribute( 'aria-expanded', 'false' );
-		}
-	} );
 
 	// Get all the link elements within the menu.
 	links = menu.getElementsByTagName( 'a' );

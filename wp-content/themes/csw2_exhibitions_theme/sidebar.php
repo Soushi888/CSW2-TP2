@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package csw2_exhibitions_theme
+ * @package csw2_exhibitions
  */
 
 if ( ! is_active_sidebar( 'sidebar-1' ) ) {

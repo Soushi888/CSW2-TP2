@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template part for displaying page content in single-n41_book.php
+ * Template part for displaying page content in single-csw2_exhibition.php
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -16,13 +16,13 @@
         <?php the_title('<h1 class="entry-title">', '</h1>'); ?>
     </header><!-- .entry-header -->
 
-    <div class=csw2-entry-content">
-        <?php csw2_exhibitions_theme_post_thumbnail(); ?>
-        <div class=csw2-entry-content-text">
-            <p><strong><?php echo the_terms(get_the_id(), 'n41_author'); ?></strong>
+    <div class="csw2-entry-content">
+        <?php csw2_exhibitions_post_thumbnail(); ?>
+        <div class="csw2-entry-content-text">
+            <p><strong><?php echo the_terms(get_the_id(), 'csw2_author'); ?></strong>
                 <br>
                 <?php
-                foreach (get_the_terms(get_the_id(), 'n41_genre') as $term) :
+                foreach (get_the_terms(get_the_id(), 'csw2_genre') as $term) :
                     echo $term->name . ', ';
                 endforeach;
                 ?>
@@ -33,7 +33,7 @@
                 ?>
                 <br>
                 <?php
-                $place = get_the_terms(get_the_id(), 'csw2_place');
+                $original_language = get_the_terms(get_the_id(), 'csw2_original_language');
                 ?>
                 Langue d'origine: <?php echo mb_strtolower($original_language[0]->name, 'UTF-8'); ?>
             </p>

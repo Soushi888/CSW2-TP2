@@ -1,16 +1,15 @@
-=== csw2_exhibitions_theme ===
+=== csw2 exhibitions ===
 
 Contributors: automattic
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
 Requires at least: 4.5
-Tested up to: 5.4
-Requires PHP: 5.6
+Tested up to: 4.8
 Stable tag: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 
-A starter theme called csw2_exhibitions_theme.
+A starter theme called csw2 exhibitions.
 
 == Description ==
 
@@ -26,7 +25,7 @@ Description
 
 = Does this theme support any plugins? =
 
-csw2_exhibitions_theme includes support for WooCommerce and for Infinite Scroll in Jetpack.
+csw2 exhibitions includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
 

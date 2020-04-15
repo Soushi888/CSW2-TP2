@@ -1,6 +1,6 @@
 <?php
 /**
- * Template name: New exhibition
+ * Template name: New exhibitions
  * The template for displaying all pages
  *
  * This is the template that displays all pages by default.
@@ -10,20 +10,20 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package N41_Editions
+ * @package csw2_exhibitions
  */
 
 get_header();
 
 $args = array(
-    'post_type'      => 'csw_exhibition',
+    'post_type'      => 'csw2_exhibition',
     'meta_key'       => 'date publication',
     'orderby'        => 'meta_value',
     'order'          => 'DESC',
     'posts_per_page' => '3'
 );
 
-$exhibition = new WP_Query($args);
+$exhibitions = new WP_Query($args);
 
 ?>
 
@@ -33,8 +33,8 @@ $exhibition = new WP_Query($args);
 				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 			</header>
 		<?php
-		while ( $exhibition->have_posts() ) :
-			$exhibition->the_post();
+		while ( $exhibitions->have_posts() ) :
+			$exhibitions->the_post();
 
 			get_template_part( 'template-parts/content', 'page-news' );
 
@@ -46,4 +46,5 @@ $exhibition = new WP_Query($args);
 	</div><!-- #primary -->
 
 <?php
+// get_sidebar();
 get_footer();
