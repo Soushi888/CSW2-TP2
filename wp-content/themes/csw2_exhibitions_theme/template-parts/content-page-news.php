@@ -18,17 +18,16 @@
     <div class="csw2-entry-content">
         <header class="entry-header">
             <h2 class="entry-title"><a href="<?php echo get_permalink(get_the_id()); ?>"><?php the_title(); ?></a></h2>
-            <p><?php echo the_terms(get_the_id(), 'csw2_author'); ?>
+            <p><?php echo the_terms(get_the_id(), 'csw2_artist'); ?>
                 <br>
                 <?php
-                foreach (get_the_terms(get_the_id(), 'csw2_genre') as $term) :
+                foreach (get_the_terms(get_the_id(), 'csw2_theme') as $term) :
                     echo $term->name . ', ';
                 endforeach;
                 ?>
-                publié le
                 <?php
-                $date_publication =  get_post_meta(get_the_id(), 'date publication', true);
-                echo date("d/m/Y", strtotime($date_publication));
+                $place =  get_post_meta(get_the_id(), 'place', true);
+                echo $place;
                 ?>
             </p>
         </header><!-- .entry-header -->

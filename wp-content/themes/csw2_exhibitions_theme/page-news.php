@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template name: New exhibitions
  * The template for displaying all pages
@@ -16,35 +17,34 @@
 get_header();
 
 $args = array(
-    'post_type'      => 'csw2_exhibition',
-    'meta_key'       => 'date publication',
-    'orderby'        => 'meta_value',
-    'order'          => 'DESC',
-    'posts_per_page' => '3'
+	'post_type'      => 'csw2_exhibitions',
+	// 'meta_key'       => '',
+	// 'orderby'        => 'meta_value',
+	'order'          => 'DESC',
+	'posts_per_page' => '3'
 );
 
 $exhibitions = new WP_Query($args);
 
 ?>
 
-	<div id="primary" class="content-area">
-		<main id="main-news" class="site-main">
-			<header>
-				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-			</header>
+<div id="primary" class="content-area">
+	<main id="main-news" class="site-main">
+		<header>
+			<?php the_title('<h1 class="entry-title">', '</h1>'); ?>
+		</header>
 		<?php
-		while ( $exhibitions->have_posts() ) :
+		while ($exhibitions->have_posts()) :
 			$exhibitions->the_post();
 
-			get_template_part( 'template-parts/content', 'page-news' );
+			get_template_part('template-parts/content', 'page-news');
 
 
 		endwhile; // End of the loop.
 		?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+	</main><!-- #main -->
+</div><!-- #primary -->
 
 <?php
-// get_sidebar();
 get_footer();
