@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template part for displaying page content in single.php
  *
@@ -11,7 +12,8 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<?php $multiple = true; csw2_exhibitions_post_thumbnail($multiple); ?>
+    <?php $multiple = true;
+    csw2_exhibitions_post_thumbnail($multiple); ?>
 
     <div class="csw2-entry-content">
         <header class="entry-header">
@@ -20,7 +22,7 @@
                 <br>
                 <?php
                 foreach (get_the_terms(get_the_id(), 'csw2_genre') as $term) :
-                    echo $term->name.', ';
+                    echo $term->name . ', ';
                 endforeach;
                 ?>
                 publié le
@@ -31,5 +33,5 @@
             </p>
         </header><!-- .entry-header -->
         <p><?php the_excerpt(); ?></p>
-	</div><!-- .entry-content -->
+    </div><!-- .entry-content -->
 </article><!-- #post-<?php the_ID(); ?> -->

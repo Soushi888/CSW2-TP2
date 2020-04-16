@@ -406,10 +406,6 @@ h1, h2, h3, h4, h5, h6 {
 	clear: both;
 }
 
-p {
-	margin-bottom: 1.5em;
-}
-
 dfn, cite, em, i {
 	font-style: italic;
 }
@@ -623,11 +619,11 @@ a {
 }
 
 a:visited {
-	color: #da7b0d; /* csw2 */
+	color: black; /* csw2 */
 }
 
 a:hover, a:focus, a:active {
-	color: #da470d; /* csw2 */
+	color: grey; /* csw2 */
 }
 
 a:focus {
@@ -1026,7 +1022,6 @@ object {
 	align-items: center;
     margin: 0 auto;
     width: 200px;
-    height: 200px;
 }
 
 #primary-menu {
@@ -1056,7 +1051,7 @@ object {
 }
 
 #primary-menu li a:hover {
-    color: #da7b0d;
+    color: black;
     background-color: white;
 }
 
