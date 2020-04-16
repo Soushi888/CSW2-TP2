@@ -850,8 +850,7 @@ a:hover, a:active {
 	display: block;
 }
 
-.post,
-.page {
+.post {
 	margin: 0 0 1.5em;
 }
 
@@ -1074,7 +1073,7 @@ object {
 
 #colophon {
     color: white;
-    background-color: #da7b0d;
+    background-color: black;
     height: 50px;
     text-align: center;
 }

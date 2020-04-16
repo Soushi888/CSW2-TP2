@@ -15,7 +15,7 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			<p>&copy; <?php _e(get_bloginfo('name'), 'csw2-exhibitions' ); ?> - 2018</p>
+			<p>&copy;2020 <?php _e(get_bloginfo('name'), 'csw2-exhibitions' ); ?> &mdash; Tout droits réservés.</p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
