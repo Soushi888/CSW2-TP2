@@ -15,22 +15,24 @@
     <?php $multiple = true;
     csw2_exhibitions_post_thumbnail($multiple); ?>
 
-    <div class="csw2-entry-content">
-        <header class="entry-header">
-            <h2 class="entry-title"><a href="<?php echo get_permalink(get_the_id()); ?>"><?php the_title(); ?></a></h2>
-            <p><?php echo the_terms(get_the_id(), 'csw2_artist'); ?>
+<div class="csw2-entry-content">
+        <div class="csw2-entry-content-text">
+            <p><?php echo "Artiste : ";
+                echo the_terms(get_the_id(), 'csw2_artist'); ?>
                 <br>
                 <?php
                 foreach (get_the_terms(get_the_id(), 'csw2_theme') as $term) :
-                    echo $term->name . ', ';
+                    echo "Thème : {$term->name}";
                 endforeach;
                 ?>
+                <br>
                 <?php
-                $place =  get_post_meta(get_the_id(), 'place', true);
-                echo $place;
+                foreach (get_the_terms(get_the_id(), 'csw2_place') as $term) :
+                    echo "Lieux : {$term->name}";
+                endforeach;
                 ?>
             </p>
-        </header><!-- .entry-header -->
-        <p><?php the_excerpt(); ?></p>
-    </div><!-- .entry-content -->
+            <?php the_excerpt(); ?>
+        </div>
 </article><!-- #post-<?php the_ID(); ?> -->
+<hr>

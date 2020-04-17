@@ -72,7 +72,7 @@ function csw2_exhibitions_register_exhibition_post_type_and_taxonomies()
 		'show_in_admin_bar'  => true,
 		'menu_position'      => null,
 		'capability_type'    => 'post',
-		'show_in_rest'		 => true,
+		'show_in_rest'		 => false,
 		'supports'           => array('title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments', 'revisions', 'custom-fields'),
 		'has_archive'        => true,
 		'rewrite'            => array('slug' => __('exhibitions', 'csw2_exhibitions')),
