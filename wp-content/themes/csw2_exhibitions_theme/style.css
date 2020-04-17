@@ -996,11 +996,9 @@ object {
     text-align: center;
 }
 
-.page-numbers {
-    color: #da7b0d; 
-}
+
 .page-numbers.current {
-    color: #008D76;
+    font-weight: bold;
 }
 
 /*--------------------------------------------------------------
