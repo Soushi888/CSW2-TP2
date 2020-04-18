@@ -33,8 +33,16 @@
                 <?php
                 foreach (get_the_terms(get_the_id(), 'csw2_place') as $term) :
                     echo "Lieux : {$term->name}";
-                endforeach;
-                ?>
+                endforeach; ?>
+                <br>
+                <?php
+                $date_debut =  get_post_meta(get_the_id(), 'Date de début', true);
+                echo "Date de début : $date_debut"; ?>
+                <br>
+                <?php
+                $date_fin =  get_post_meta(get_the_id(), 'Date de fin', true);
+                echo "Date de fin : $date_fin";
+                ?>       
             </p>
             <?php the_content(); ?>
         </div>
